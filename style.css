@@ -266,7 +266,7 @@ header.sticky .nav-bar {
 
 /* .home-container .info {
     /* width: 50%; */
- 
+
 
 .home-container .info h2 {
     font-size: 3.2em;
@@ -1019,6 +1019,12 @@ footer a {
         background: rgba(255, 255, 255, 0.1);
         margin: 10px 0 22px;
     }
+
+    .home {
+
+        min-height: 80vh;
+
+    }
 }
 
 
@@ -1093,6 +1099,18 @@ footer a {
 
     .home-container .media-icons a {
         z-index: 99999;
+    }
+
+    .home-container .media-icons {
+        margin-right: 280px;
+    }
+
+    .theme-btn {
+        right: 20px;
+    }
+
+    .home {
+        min-height: 60vh;
     }
 
 }
